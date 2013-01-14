@@ -1,107 +1,117 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<scene  id="U1L1" begin_id="1" >
-	<title>Beerburg Sex Assault</title>
+<scene  id="" first_node="1" >
+	<title>Prescription Drugs</title>
 	<nodes>
 		<node id="1" >
 			<title>Splash</title>
 			<file src="assets/media/screen1.png" />
-			<complete action="gotoAndPlay" target="2"/>
+			<complete action="gotoAndPlay" value="2"/>
 		</node>
 		<node id="2" >
 			<title>Start</title>
 			<file src="assets/media/screen2.png" />
-			<complete action="gotoAndPlay" target="3"/>
+			<complete action="gotoAndPlay" value="3"/>
 		</node>
 		<node id="3" >
 			<title>Weekend Off</title>
 			<file src="assets/media/screen3.png" />
-			<complete action="gotoAndPlay" target="4"/>
+			<complete action="gotoAndPlay" value="4"/>
 		</node>
-		<node id="4" >
+		<node id="4" type="eval">
 			<title>Not a Vacation</title>
-			<file src="assets/media/screen4.png" />
-			<complete action="gotoAndPlay" target="5"/>
-		</node>
+			<file src="assets/media/screen_04.swf" />
+			<complete action="gotoAndPlay" value="0:5,1:0,2:17"/>
+		</node>		
 		<node id="5" >
 			<title>To Blitz or not to Blitz?</title>
 			<file src="assets/media/screen5.png" />
-			<complete action="gotoAndPlay" target="6"/>
+			<complete action="gotoAndPlay" value="6"/>
 		</node>
 		<node id="6" >
 			<title>Hit the Club</title>
 			<file src="assets/media/screen6.png" />
-			<complete action="gotoAndPlay" target="7"/>
+			<complete action="gotoAndPlay" value="7"/>
 		</node>
-		<node id="7" >
+		<node id="7" type="eval">
 			<title>A Quiet Bar</title>
-			<file src="assets/media/screen7.png" />
-			<complete action="gotoAndPlay" target="8"/>
+			<file src="assets/media/screen_07.swf" />
+			<complete action="gotoAndPlay" value="0:8,1:13"/>
 		</node>
 		<node id="8" >
 			<title>Hang Low Tonight</title>
 			<file src="assets/media/screen8.png" />
-			<complete action="gotoAndPlay" target="10"/>
+			<complete action="gotoAndPlay" value="10"/>
 		</node>
 	
 		<node id="10" >
 			<title>From Bar to Club</title>
 			<file src="assets/media/screen10.png" />
-			<complete action="gotoAndPlay" target="11"/>
+			<complete action="gotoAndPlay" value="11"/>
 		</node>
 		<node id="11" >
 			<title>From Bar to Club (cont'd)</title>
 			<file src="assets/media/screen11.png" />
-			<complete action="gotoAndPlay" target="12"/>
+			<complete action="gotoAndPlay" value="12"/>
 		</node>
 		<node id="12" >
 			<title>Ladies Man</title>
 			<file src="assets/media/screen12.png" />
-			<complete action="gotoAndPlay" target="13"/>
+			<complete action="end"/>
 		</node>
-		<node id="13" >
+		<!--  
+		end
+		 -->
+		<node id="13" type="eval">
 			<title>Grilling Steaks</title>
-			<file src="assets/media/screen13.png" />
-			<complete action="gotoAndPlay" target="14"/>
+			<file src="assets/media/screen_13.swf" />
+			<complete action="gotoAndPlay" value="0:8,1:14"/>
 		</node>
 		<node id="14" >
 			<title>Throw the Football</title>
 			<file src="assets/media/screen14.png" />
-			<complete action="gotoAndPlay" target="16"/>
+			<complete action="gotoAndPlay" value="16"/>
 		</node>
-		
 		<node id="16" >
 			<title>Hung Over</title>
 			<file src="assets/media/screen6.png" />
-			<complete action="gotoAndPlay" target="17"/>
+			<complete action="end"/>
 		</node>
-		<node id="17" >
+		<!--  
+		end
+		 -->
+		<node id="17" type="eval">
 			<title>More Shots</title>
-			<file src="assets/media/screen7.png" />
-			<complete action="gotoAndPlay" target="18"/>
+			<file src="assets/media/screen_17.swf" />
+			<complete action="gotoAndPlay" value="0:18,1:0"/>
 		</node>
 		<node id="18" >
 			<title>Maybe We Should Call It A Night</title>
 			<file src="assets/media/screen8.png" />
-			<complete action="gotoAndPlay" target="21"/>
+			<complete action="gotoAndPlay" value="20"/>
 		</node>
 	
+		<node id="20" >
+			<title>High Success</title>
+			<file src="assets/media/screen20.png" />
+			<complete action="gotoAndPlay" value="21"/>
+		</node>
 		<node id="21" >
 			<title>High Success</title>
 			<file src="assets/media/screen21.png" />
-			<complete action="gotoAndPlay" target="22"/>
+			<complete action="gotoAndPlay" value="22"/>
 		</node>
 		<node id="22" >
 			<title>No Success</title>
 			<file src="assets/media/screen22.png" />
-			<complete action="gotoAndPlay" target="23"/>
+			<complete action="gotoAndPlay" value="22b"/>
 		</node>
-		<node id="23" >
+		<node id="22b" >
 			<title>No Success</title>
 			<file src="assets/media/screen22b.png" />
-			<complete action="gotoAndPlay" target="33"/>
+			<complete action="gotoAndPlay" value="33.5"/>
 		</node>
 		
-		<node id="33" >
+		<node id="33.5" >
 			<title>Low Success</title>
 			<file src="assets/media/screen33.5.png" />
 			<complete action="end"/>
