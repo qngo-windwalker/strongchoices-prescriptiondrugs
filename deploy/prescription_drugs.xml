@@ -82,7 +82,7 @@
 		<node id="17" type="eval">
 			<title>More Shots</title>
 			<file src="assets/media/screen_17.swf" />
-			<complete action="gotoAndPlay" value="0:18,1:0"/>
+			<complete action="gotoAndPlay" value="0:18,1:24"/>
 		</node>
 		<node id="18" >
 			<title>Maybe We Should Call It A Night</title>
@@ -109,6 +109,54 @@
 			<title>No Success</title>
 			<file src="assets/media/screen22b.png" />
 			<complete action="gotoAndPlay" value="33.5"/>
+		</node>
+		<node id="23" >
+			<title>No Success</title>
+			<file src="assets/media/screen23.png" />
+			<complete action="gotoAndPlay" value="24"/>
+		</node>
+		<node id="24" type="eval">
+			<title>No Success</title>
+			<file src="assets/media/screen_24.swf" />
+			<complete action="gotoAndPlay" value="0:28,1:29"/>
+		</node>
+		
+		<node id="28" >
+			<title>No Success</title>
+			<file src="assets/media/screen28.png" />
+			<complete action="end"/>
+		</node>
+		<!--  
+		end
+		 -->
+		 
+		 <node id="29" >
+			<title>No Success</title>
+			<file src="assets/media/screen29.png" />
+			<complete action="gotoAndPlay" value="30"/>
+		</node>
+		
+		<node id="30" type="eval">
+			<title>No Success</title>
+			<file src="assets/media/screen_30.swf" />
+			<complete action="gotoAndPlay" value="0:31,1:32"/>
+		</node>
+		
+		<node id="31" >
+			<title>No Success</title>
+			<file src="assets/media/screen31.png" />
+			<complete action="gotoAndPlay" value="28"/>
+		</node>
+		
+		<node id="32" >
+			<title>No Success</title>
+			<file src="assets/media/screen32.png" />
+			<complete action="gotoAndPlay" value="33"/>
+		</node>		
+		<node id="33" >
+			<title>No Success</title>
+			<file src="assets/media/screen33.png" />
+			<complete action="end"/>
 		</node>
 		
 		<node id="33.5" >
