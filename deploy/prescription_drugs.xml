@@ -82,7 +82,7 @@
 		<node id="17" type="eval">
 			<title>More Shots</title>
 			<file src="assets/media/screen_17.swf" />
-			<complete action="gotoAndPlay" value="0:18,1:24"/>
+			<complete action="gotoAndPlay" value="0:18,1:23"/>
 		</node>
 		<node id="18" >
 			<title>Maybe We Should Call It A Night</title>
