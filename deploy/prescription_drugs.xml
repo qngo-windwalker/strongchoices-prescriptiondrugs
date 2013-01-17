@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<scene  id="" first_node="1" >
+<scene  id="" first_node="0" >
 	<title>Prescription Drugs</title>
 	<nodes>
+		<node id="0" type="eval">
+			<title>Splash</title>
+			<file src="assets/media/title.swf" />
+			<complete action="gotoAndPlay" value="0:1"/>
+		</node>
 		<node id="1" >
 			<title>Splash</title>
 			<file src="assets/media/screen1.png" />
@@ -20,7 +25,7 @@
 		<node id="4" type="eval">
 			<title>Not a Vacation</title>
 			<file src="assets/media/screen_04.swf" />
-			<complete action="gotoAndPlay" value="0:5,1:17,2:0"/>
+			<complete action="gotoAndPlay" value="0:5,1:17,2:34"/>
 		</node>		
 		<node id="5" >
 			<title>To Blitz or not to Blitz?</title>
@@ -163,6 +168,32 @@
 			<title>Low Success</title>
 			<file src="assets/media/screen33.5.png" />
 			<complete action="end"/>
+		</node>
+		
+		<node id="34" >
+			<title>No Success</title>
+			<file src="assets/media/screen34.png" />
+			<complete action="gotoAndPlay" value="37"/>
+		</node>
+		<node id="37" type="eval">
+			<title>No Success</title>
+			<file src="assets/media/screen_37.swf" />
+			<complete action="gotoAndPlay" value="0:38,1:40"/>
+		</node>
+		<node id="38" >
+			<title>No Success</title>
+			<file src="assets/media/screen38.png" />
+			<complete action="gotoAndPlay" value="39"/>
+		</node>
+		<node id="39" type="eval" >
+			<title>No Success</title>
+			<file src="assets/media/screen_39.swf" />
+			<complete action="gotoAndPlay" value="0:8,1:14"/>
+		</node>
+		<node id="40" >
+			<title>No Success</title>
+			<file src="assets/media/slide40.png" />
+			<complete action="end" />
 		</node>
 		
 	</nodes>	
